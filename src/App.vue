@@ -1,17 +1,23 @@
 <template>
-  <header class="bg-[url('@/assets/images/mobile/image-header.jpg')] h-96 border border-indigo-500">
-    <div>
-      <img alt="Vue logo" class="logo" src="@/assets/images/logo.svg" width="125" height="125" />
-    </div>  
-    <div class="wrapper">
-      <!-- <HelloWorld msg="You did it!" /> -->
+  <header id="banner" class="bg-[url('@/assets/images/mobile/image-header.jpg')] h-96 px-6">
+    
+    <div id="logo-banner" class="pt-8">
+      <img alt="Vue logo" class="font-serif" src="@/assets/images/logo.svg"/>
+    </div >  
 
-      <!-- <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav> -->
+    <div id="title-banner" class="text-white">
+      <p>WE ARE CREATIVES</p>
     </div>
+
   </header>
+
+  <div id="menu">
+    <!-- <nav>
+      <RouterLink to="/">Home</RouterLink>
+      <RouterLink to="/about">About</RouterLink>
+    </nav> -->
+  </div>
+
 
   <!-- <RouterView /> -->
 </template>
